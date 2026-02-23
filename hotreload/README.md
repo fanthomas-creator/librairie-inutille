@@ -44,7 +44,11 @@ Tu n'as besoin que des outils correspondant aux langages que tu utilises.
 ### Depuis les sources
 
 ```bash
-git clone https://github.com/fanthomas-creator/librairie-inutille/hotreload
+git clone --no-checkout https://github.com/fanthomas-creator/librairie-inutille.git
+cd librairie-inutille
+git sparse-checkout init --cone
+git sparse-checkout set hotreload
+git checkout main
 cd hotreload
 make build
 ```
