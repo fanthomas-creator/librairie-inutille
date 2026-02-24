@@ -10,7 +10,7 @@ const COMMANDS = ['encrypt', 'decrypt', 'benchmark', 'info', 'help'];
 function printBanner() {
   console.log(`
 ╔══════════════════════════════════════════════════════╗
-║       CA-SPN CIPHER — Architecture 4                 ║
+║       CA-SPN CIPHER —                                ║
 ║       Automate Cellulaire + SPN                      ║
 ╚══════════════════════════════════════════════════════╝
 `);
